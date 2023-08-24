@@ -8,17 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		D6039FD32A96117800ECD530 /* AquacareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6039FD22A96117800ECD530 /* AquacareApp.swift */; };
-		D6039FD52A96117800ECD530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6039FD42A96117800ECD530 /* ContentView.swift */; };
+		D6039FD52A96117800ECD530 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6039FD42A96117800ECD530 /* MainView.swift */; };
 		D6039FD72A96117900ECD530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6039FD62A96117900ECD530 /* Assets.xcassets */; };
 		D6039FDA2A96117900ECD530 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6039FD92A96117900ECD530 /* Preview Assets.xcassets */; };
+		D6039FE42A96152B00ECD530 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6039FE32A96152B00ECD530 /* GoogleService-Info.plist */; };
+		D6039FE72A96158E00ECD530 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D6039FE62A96158E00ECD530 /* FirebaseAnalytics */; };
+		D6039FE92A96158E00ECD530 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D6039FE82A96158E00ECD530 /* FirebaseAnalyticsSwift */; };
+		D6039FEB2A96158E00ECD530 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D6039FEA2A96158E00ECD530 /* FirebaseFirestore */; };
+		D6039FF52A96177700ECD530 /* AquacareFirestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6039FF42A96177700ECD530 /* AquacareFirestore.swift */; };
+		D6039FF72A9617EA00ECD530 /* LampResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6039FF62A9617EA00ECD530 /* LampResponse.swift */; };
+		D6039FFA2A961B2200ECD530 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D6039FF92A961B2200ECD530 /* FirebaseFirestoreSwift */; };
+		D6039FFC2A961D9500ECD530 /* LampRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6039FFB2A961D9500ECD530 /* LampRepositoryProtocol.swift */; };
+		D6039FFE2A961DD600ECD530 /* LampRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6039FFD2A961DD600ECD530 /* LampRepository.swift */; };
+		D603A0002A961E3C00ECD530 /* GetLampUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6039FFF2A961E3C00ECD530 /* GetLampUseCase.swift */; };
+		D603A0022A961E5800ECD530 /* LampModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603A0012A961E5800ECD530 /* LampModel.swift */; };
+		D617C2D52A96EDF900756069 /* UpdateLampUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2D42A96EDF900756069 /* UpdateLampUseCase.swift */; };
+		D617C2D82A96EF6200756069 /* AquacareDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D617C2D62A96EF6200756069 /* AquacareDatabase.xcdatamodeld */; };
+		D617C2DA2A96F37100756069 /* ProjectsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2D92A96F37100756069 /* ProjectsRepositoryProtocol.swift */; };
+		D617C2DC2A96F3B100756069 /* ProjectsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2DB2A96F3B100756069 /* ProjectsRepository.swift */; };
+		D617C2E02A96F8ED00756069 /* GetProjectsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2DF2A96F8ED00756069 /* GetProjectsUseCase.swift */; };
+		D617C2E62A9738BD00756069 /* MyAquascapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2E52A9738BD00756069 /* MyAquascapesView.swift */; };
+		D617C2E92A97397B00756069 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D617C2EB2A97397B00756069 /* Localizable.strings */; };
+		D617C2EF2A973A0000756069 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2EE2A973A0000756069 /* LibraryView.swift */; };
+		D617C2F12A973A0900756069 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2F02A973A0900756069 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6039FCF2A96117800ECD530 /* Aquacare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquacare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6039FD22A96117800ECD530 /* AquacareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquacareApp.swift; sourceTree = "<group>"; };
-		D6039FD42A96117800ECD530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6039FD42A96117800ECD530 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D6039FD62A96117900ECD530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6039FD92A96117900ECD530 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6039FE32A96152B00ECD530 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6039FF42A96177700ECD530 /* AquacareFirestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquacareFirestore.swift; sourceTree = "<group>"; };
+		D6039FF62A9617EA00ECD530 /* LampResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampResponse.swift; sourceTree = "<group>"; };
+		D6039FFB2A961D9500ECD530 /* LampRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampRepositoryProtocol.swift; sourceTree = "<group>"; };
+		D6039FFD2A961DD600ECD530 /* LampRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampRepository.swift; sourceTree = "<group>"; };
+		D6039FFF2A961E3C00ECD530 /* GetLampUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLampUseCase.swift; sourceTree = "<group>"; };
+		D603A0012A961E5800ECD530 /* LampModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampModel.swift; sourceTree = "<group>"; };
+		D617C2D42A96EDF900756069 /* UpdateLampUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLampUseCase.swift; sourceTree = "<group>"; };
+		D617C2D72A96EF6200756069 /* Projects.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Projects.xcdatamodel; sourceTree = "<group>"; };
+		D617C2D92A96F37100756069 /* ProjectsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsRepositoryProtocol.swift; sourceTree = "<group>"; };
+		D617C2DB2A96F3B100756069 /* ProjectsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsRepository.swift; sourceTree = "<group>"; };
+		D617C2DF2A96F8ED00756069 /* GetProjectsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProjectsUseCase.swift; sourceTree = "<group>"; };
+		D617C2E52A9738BD00756069 /* MyAquascapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAquascapesView.swift; sourceTree = "<group>"; };
+		D617C2EA2A97397B00756069 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D617C2ED2A97398C00756069 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D617C2EE2A973A0000756069 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		D617C2F02A973A0900756069 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6039FE92A96158E00ECD530 /* FirebaseAnalyticsSwift in Frameworks */,
+				D6039FE72A96158E00ECD530 /* FirebaseAnalytics in Frameworks */,
+				D6039FEB2A96158E00ECD530 /* FirebaseFirestore in Frameworks */,
+				D6039FFA2A961B2200ECD530 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +76,10 @@
 		D6039FC62A96117800ECD530 = {
 			isa = PBXGroup;
 			children = (
+				D617C2EB2A97397B00756069 /* Localizable.strings */,
 				D6039FD12A96117800ECD530 /* Aquacare */,
 				D6039FD02A96117800ECD530 /* Products */,
+				D6039FF82A961B2200ECD530 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +94,12 @@
 		D6039FD12A96117800ECD530 /* Aquacare */ = {
 			isa = PBXGroup;
 			children = (
+				D6039FE02A9613CC00ECD530 /* Data */,
+				D6039FE12A9613D100ECD530 /* Domain */,
+				D6039FE22A9613D500ECD530 /* Presenters */,
 				D6039FD22A96117800ECD530 /* AquacareApp.swift */,
-				D6039FD42A96117800ECD530 /* ContentView.swift */,
-				D6039FD62A96117900ECD530 /* Assets.xcassets */,
+				D6039FE32A96152B00ECD530 /* GoogleService-Info.plist */,
+				D6039FEC2A9615A600ECD530 /* Resources */,
 				D6039FD82A96117900ECD530 /* Preview Content */,
 			);
 			path = Aquacare;
@@ -65,6 +111,153 @@
 				D6039FD92A96117900ECD530 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6039FE02A9613CC00ECD530 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D6039FEF2A96173B00ECD530 /* Local */,
+				D6039FEE2A96173000ECD530 /* Network */,
+				D6039FED2A96172C00ECD530 /* Model */,
+				D6039FF22A96175200ECD530 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D6039FE12A9613D100ECD530 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D6039FF32A96175B00ECD530 /* Repository */,
+				D6039FF12A96174900ECD530 /* UseCase */,
+				D6039FF02A96174500ECD530 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D6039FE22A9613D500ECD530 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				D617C2E42A9738B200756069 /* Profile */,
+				D617C2E32A9738AD00756069 /* Library */,
+				D617C2E22A97389F00756069 /* MyAquascapes */,
+				D6039FD42A96117800ECD530 /* MainView.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D6039FEC2A9615A600ECD530 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6039FD62A96117900ECD530 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6039FED2A96172C00ECD530 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6039FF62A9617EA00ECD530 /* LampResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6039FEE2A96173000ECD530 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D6039FF42A96177700ECD530 /* AquacareFirestore.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D6039FEF2A96173B00ECD530 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D617C2D62A96EF6200756069 /* AquacareDatabase.xcdatamodeld */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		D6039FF02A96174500ECD530 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D603A0012A961E5800ECD530 /* LampModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6039FF12A96174900ECD530 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				D617C2DE2A96F8E100756069 /* Lamps */,
+				D617C2DD2A96F8DC00756069 /* Projects */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		D6039FF22A96175200ECD530 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D6039FFD2A961DD600ECD530 /* LampRepository.swift */,
+				D617C2DB2A96F3B100756069 /* ProjectsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D6039FF32A96175B00ECD530 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D6039FFB2A961D9500ECD530 /* LampRepositoryProtocol.swift */,
+				D617C2D92A96F37100756069 /* ProjectsRepositoryProtocol.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D6039FF82A961B2200ECD530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D617C2DD2A96F8DC00756069 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				D617C2DF2A96F8ED00756069 /* GetProjectsUseCase.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		D617C2DE2A96F8E100756069 /* Lamps */ = {
+			isa = PBXGroup;
+			children = (
+				D6039FFF2A961E3C00ECD530 /* GetLampUseCase.swift */,
+				D617C2D42A96EDF900756069 /* UpdateLampUseCase.swift */,
+			);
+			path = Lamps;
+			sourceTree = "<group>";
+		};
+		D617C2E22A97389F00756069 /* MyAquascapes */ = {
+			isa = PBXGroup;
+			children = (
+				D617C2E52A9738BD00756069 /* MyAquascapesView.swift */,
+			);
+			path = MyAquascapes;
+			sourceTree = "<group>";
+		};
+		D617C2E32A9738AD00756069 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D617C2EE2A973A0000756069 /* LibraryView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D617C2E42A9738B200756069 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D617C2F02A973A0900756069 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +276,12 @@
 			dependencies = (
 			);
 			name = Aquacare;
+			packageProductDependencies = (
+				D6039FE62A96158E00ECD530 /* FirebaseAnalytics */,
+				D6039FE82A96158E00ECD530 /* FirebaseAnalyticsSwift */,
+				D6039FEA2A96158E00ECD530 /* FirebaseFirestore */,
+				D6039FF92A961B2200ECD530 /* FirebaseFirestoreSwift */,
+			);
 			productName = Aquacare;
 			productReference = D6039FCF2A96117800ECD530 /* Aquacare.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +308,12 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = D6039FC62A96117800ECD530;
+			packageReferences = (
+				D6039FE52A96158E00ECD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D6039FD02A96117800ECD530 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +329,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6039FDA2A96117900ECD530 /* Preview Assets.xcassets in Resources */,
+				D617C2E92A97397B00756069 /* Localizable.strings in Resources */,
 				D6039FD72A96117900ECD530 /* Assets.xcassets in Resources */,
+				D6039FE42A96152B00ECD530 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +342,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6039FD52A96117800ECD530 /* ContentView.swift in Sources */,
+				D603A0002A961E3C00ECD530 /* GetLampUseCase.swift in Sources */,
+				D617C2DC2A96F3B100756069 /* ProjectsRepository.swift in Sources */,
+				D617C2E02A96F8ED00756069 /* GetProjectsUseCase.swift in Sources */,
+				D617C2E62A9738BD00756069 /* MyAquascapesView.swift in Sources */,
+				D6039FF52A96177700ECD530 /* AquacareFirestore.swift in Sources */,
+				D6039FFE2A961DD600ECD530 /* LampRepository.swift in Sources */,
+				D6039FD52A96117800ECD530 /* MainView.swift in Sources */,
+				D6039FFC2A961D9500ECD530 /* LampRepositoryProtocol.swift in Sources */,
+				D617C2F12A973A0900756069 /* ProfileView.swift in Sources */,
+				D603A0022A961E5800ECD530 /* LampModel.swift in Sources */,
+				D6039FF72A9617EA00ECD530 /* LampResponse.swift in Sources */,
+				D617C2D52A96EDF900756069 /* UpdateLampUseCase.swift in Sources */,
+				D617C2DA2A96F37100756069 /* ProjectsRepositoryProtocol.swift in Sources */,
 				D6039FD32A96117800ECD530 /* AquacareApp.swift in Sources */,
+				D617C2EF2A973A0000756069 /* LibraryView.swift in Sources */,
+				D617C2D82A96EF6200756069 /* AquacareDatabase.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D617C2EB2A97397B00756069 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D617C2EA2A97397B00756069 /* en */,
+				D617C2ED2A97398C00756069 /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D6039FDB2A96117900ECD530 /* Debug */ = {
@@ -339,6 +570,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6039FE52A96158E00ECD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6039FE62A96158E00ECD530 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6039FE52A96158E00ECD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D6039FE82A96158E00ECD530 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6039FE52A96158E00ECD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		D6039FEA2A96158E00ECD530 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6039FE52A96158E00ECD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D6039FF92A961B2200ECD530 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6039FE52A96158E00ECD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D617C2D62A96EF6200756069 /* AquacareDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D617C2D72A96EF6200756069 /* Projects.xcdatamodel */,
+			);
+			currentVersion = D617C2D72A96EF6200756069 /* Projects.xcdatamodel */;
+			path = AquacareDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D6039FC72A96117800ECD530 /* Project object */;
 }
