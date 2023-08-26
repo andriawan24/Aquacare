@@ -10,5 +10,5 @@ import Combine
 
 protocol LampRepositoryProtocol {
     func getLampStatus() -> AnyPublisher<LampResponse?, Error>
-    func updateLamp(startTime: String, endTime: String, intensity: Int)
+    func updateLamp(startTime: Int, endTime: Int, intensity: Int, state: Bool, scheduled: Bool)
 }

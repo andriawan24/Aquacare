@@ -29,7 +29,7 @@ class LampRepository: LampRepositoryProtocol {
         return firestore.getLampData()
     }
     
-    func updateLamp(startTime: String, endTime: String, intensity: Int) {
-        firestore.updateLamp(startTime: startTime, endTime: endTime, intensity: intensity)
+    func updateLamp(startTime: Int, endTime: Int, intensity: Int, state: Bool, scheduled: Bool) {
+        firestore.updateLamp(startTime: startTime, endTime: endTime, intensity: intensity, state: state, scheduled: scheduled)
     }
 }

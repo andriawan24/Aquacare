@@ -8,7 +8,9 @@
 import Foundation
 
 struct LampModel {
-    let startTime: String
-    let endTime: String
+    let startTime: Int
+    let endTime: Int
     let intensity: Int
+    let state: Bool
+    let scheduled: Bool
 }

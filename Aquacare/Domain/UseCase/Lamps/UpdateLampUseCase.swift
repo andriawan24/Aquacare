@@ -12,12 +12,14 @@ class UpdateLampUseCase {
     private let repository = LampRepository.shared
     
     func execute(param: Param) {
-        repository.updateLamp(startTime: param.startTime, endTime: param.endTime, intensity: param.intensity)
+        repository.updateLamp(startTime: param.startTime, endTime: param.endTime, intensity: param.intensity, state: param.state, scheduled: param.scheduled)
     }
     
     struct Param {
-        let startTime: String
-        let endTime: String
+        let startTime: Int
+        let endTime: Int
         let intensity: Int
+        let state: Bool
+        let scheduled: Bool
     }
 }

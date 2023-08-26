@@ -46,13 +46,15 @@ class AquascapeFirestore {
         ).eraseToAnyPublisher()
     }
     
-    func updateLamp(startTime: String, endTime: String, intensity: Int) {
+    func updateLamp(startTime: Int, endTime: Int, intensity: Int, state: Bool, scheduled: Bool) {
         db.collection("lamps")
             .document("/device01")
             .updateData([
                 "start_time": startTime,
                 "end_time": endTime,
-                "intensity": intensity
+                "intensity": intensity,
+                "state": state,
+                "scheduled": scheduled
             ])
     }
 }

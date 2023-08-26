@@ -8,13 +8,15 @@
 import Foundation
 
 struct LampResponse: Codable {
-    let startTime: String?
-    let endTime: String?
+    let startTime: Int?
+    let endTime: Int?
     let intensity: Int?
+    let state: Bool?
+    let scheduled: Bool?
     
     enum CodingKeys: String, CodingKey {
         case startTime = "start_time"
         case endTime = "end_time"
-        case intensity
+        case intensity, state, scheduled
     }
 }

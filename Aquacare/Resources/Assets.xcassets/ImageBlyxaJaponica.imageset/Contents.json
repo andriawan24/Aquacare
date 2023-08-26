@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "ImageBlyxaJaponica.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "ImageBlyxaJaponica@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "ImageBlyxaJaponica@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

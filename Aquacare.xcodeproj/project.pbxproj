@@ -31,6 +31,26 @@
 		D617C2E92A97397B00756069 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D617C2EB2A97397B00756069 /* Localizable.strings */; };
 		D617C2EF2A973A0000756069 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2EE2A973A0000756069 /* LibraryView.swift */; };
 		D617C2F12A973A0900756069 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2F02A973A0900756069 /* ProfileView.swift */; };
+		D617C2F52A973FB700756069 /* Colors+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2F42A973FB700756069 /* Colors+Constants.swift */; };
+		D617C2F72A97400D00756069 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617C2F62A97400D00756069 /* LibraryViewModel.swift */; };
+		D62D4F122A97AE42003649A8 /* InputLitmusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F112A97AE42003649A8 /* InputLitmusView.swift */; };
+		D62D4F152A97EECE003649A8 /* DetailMyAquascape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F142A97EECE003649A8 /* DetailMyAquascape.swift */; };
+		D62D4F182A980188003649A8 /* LightSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F172A980188003649A8 /* LightSettingsView.swift */; };
+		D62D4F1A2A981462003649A8 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F192A981462003649A8 /* FormViewModel.swift */; };
+		D62D4F1C2A981AF9003649A8 /* PlantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F1B2A981AF9003649A8 /* PlantModel.swift */; };
+		D62D4F1E2A982054003649A8 /* AddProjectUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F1D2A982054003649A8 /* AddProjectUseCase.swift */; };
+		D62D4F202A9823EF003649A8 /* MyAquascapesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F1F2A9823EF003649A8 /* MyAquascapesViewModel.swift */; };
+		D62D4F232A982A83003649A8 /* DetailPHIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F222A982A83003649A8 /* DetailPHIndicatorView.swift */; };
+		D62D4F252A983A7C003649A8 /* LightSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F242A983A7C003649A8 /* LightSettingsViewModel.swift */; };
+		D62D4F272A985EB9003649A8 /* Date+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F262A985EB9003649A8 /* Date+Formatter.swift */; };
+		D62D4F292A9861FD003649A8 /* DetailKHIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F282A9861FD003649A8 /* DetailKHIndicatorView.swift */; };
+		D62D4F2B2A9863BE003649A8 /* DetailGHIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4F2A2A9863BE003649A8 /* DetailGHIndicatorView.swift */; };
+		D6BAE3452A974F6F0072B065 /* DetailLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAE3442A974F6F0072B065 /* DetailLibraryView.swift */; };
+		D6BAE3472A9750490072B065 /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAE3462A9750490072B065 /* UINavigationController+Ext.swift */; };
+		D6BAE34A2A9775FA0072B065 /* ProjectForm1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAE3492A9775F90072B065 /* ProjectForm1View.swift */; };
+		D6BAE34C2A97771D0072B065 /* ProjectForm2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAE34B2A97771D0072B065 /* ProjectForm2View.swift */; };
+		D6BAE34E2A97772B0072B065 /* ProjectForm3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAE34D2A97772B0072B065 /* ProjectForm3View.swift */; };
+		D6BAE3502A97A4560072B065 /* ProjectForm4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAE34F2A97A4560072B065 /* ProjectForm4View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +76,26 @@
 		D617C2ED2A97398C00756069 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D617C2EE2A973A0000756069 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		D617C2F02A973A0900756069 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D617C2F42A973FB700756069 /* Colors+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Constants.swift"; sourceTree = "<group>"; };
+		D617C2F62A97400D00756069 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		D62D4F112A97AE42003649A8 /* InputLitmusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLitmusView.swift; sourceTree = "<group>"; };
+		D62D4F142A97EECE003649A8 /* DetailMyAquascape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMyAquascape.swift; sourceTree = "<group>"; };
+		D62D4F172A980188003649A8 /* LightSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSettingsView.swift; sourceTree = "<group>"; };
+		D62D4F192A981462003649A8 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		D62D4F1B2A981AF9003649A8 /* PlantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantModel.swift; sourceTree = "<group>"; };
+		D62D4F1D2A982054003649A8 /* AddProjectUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectUseCase.swift; sourceTree = "<group>"; };
+		D62D4F1F2A9823EF003649A8 /* MyAquascapesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAquascapesViewModel.swift; sourceTree = "<group>"; };
+		D62D4F222A982A83003649A8 /* DetailPHIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPHIndicatorView.swift; sourceTree = "<group>"; };
+		D62D4F242A983A7C003649A8 /* LightSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSettingsViewModel.swift; sourceTree = "<group>"; };
+		D62D4F262A985EB9003649A8 /* Date+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatter.swift"; sourceTree = "<group>"; };
+		D62D4F282A9861FD003649A8 /* DetailKHIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailKHIndicatorView.swift; sourceTree = "<group>"; };
+		D62D4F2A2A9863BE003649A8 /* DetailGHIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGHIndicatorView.swift; sourceTree = "<group>"; };
+		D6BAE3442A974F6F0072B065 /* DetailLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLibraryView.swift; sourceTree = "<group>"; };
+		D6BAE3462A9750490072B065 /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
+		D6BAE3492A9775F90072B065 /* ProjectForm1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectForm1View.swift; sourceTree = "<group>"; };
+		D6BAE34B2A97771D0072B065 /* ProjectForm2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectForm2View.swift; sourceTree = "<group>"; };
+		D6BAE34D2A97772B0072B065 /* ProjectForm3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectForm3View.swift; sourceTree = "<group>"; };
+		D6BAE34F2A97A4560072B065 /* ProjectForm4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectForm4View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +116,8 @@
 		D6039FC62A96117800ECD530 = {
 			isa = PBXGroup;
 			children = (
-				D617C2EB2A97397B00756069 /* Localizable.strings */,
 				D6039FD12A96117800ECD530 /* Aquacare */,
+				D617C2EB2A97397B00756069 /* Localizable.strings */,
 				D6039FD02A96117800ECD530 /* Products */,
 				D6039FF82A961B2200ECD530 /* Frameworks */,
 			);
@@ -97,6 +137,7 @@
 				D6039FE02A9613CC00ECD530 /* Data */,
 				D6039FE12A9613D100ECD530 /* Domain */,
 				D6039FE22A9613D500ECD530 /* Presenters */,
+				D617C2F32A973FA800756069 /* Utils */,
 				D6039FD22A96117800ECD530 /* AquacareApp.swift */,
 				D6039FE32A96152B00ECD530 /* GoogleService-Info.plist */,
 				D6039FEC2A9615A600ECD530 /* Resources */,
@@ -137,9 +178,14 @@
 		D6039FE22A9613D500ECD530 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
-				D617C2E42A9738B200756069 /* Profile */,
-				D617C2E32A9738AD00756069 /* Library */,
+				D62D4F212A982A72003649A8 /* DetailIndicator */,
+				D62D4F162A98015C003649A8 /* LightSetting */,
+				D62D4F132A97EEB5003649A8 /* DetailMyAquascape */,
+				D6BAE3482A9775E60072B065 /* ProjectsForm */,
 				D617C2E22A97389F00756069 /* MyAquascapes */,
+				D6BAE3432A974F540072B065 /* DetailLibrary */,
+				D617C2E32A9738AD00756069 /* Library */,
+				D617C2E42A9738B200756069 /* Profile */,
 				D6039FD42A96117800ECD530 /* MainView.swift */,
 			);
 			path = Presenters;
@@ -181,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				D603A0012A961E5800ECD530 /* LampModel.swift */,
+				D62D4F1B2A981AF9003649A8 /* PlantModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,6 +269,7 @@
 		D617C2DD2A96F8DC00756069 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
+				D62D4F1D2A982054003649A8 /* AddProjectUseCase.swift */,
 				D617C2DF2A96F8ED00756069 /* GetProjectsUseCase.swift */,
 			);
 			path = Projects;
@@ -240,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				D617C2E52A9738BD00756069 /* MyAquascapesView.swift */,
+				D62D4F1F2A9823EF003649A8 /* MyAquascapesViewModel.swift */,
 			);
 			path = MyAquascapes;
 			sourceTree = "<group>";
@@ -248,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				D617C2EE2A973A0000756069 /* LibraryView.swift */,
+				D617C2F62A97400D00756069 /* LibraryViewModel.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -258,6 +308,64 @@
 				D617C2F02A973A0900756069 /* ProfileView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		D617C2F32A973FA800756069 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D617C2F42A973FB700756069 /* Colors+Constants.swift */,
+				D6BAE3462A9750490072B065 /* UINavigationController+Ext.swift */,
+				D62D4F262A985EB9003649A8 /* Date+Formatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D62D4F132A97EEB5003649A8 /* DetailMyAquascape */ = {
+			isa = PBXGroup;
+			children = (
+				D62D4F142A97EECE003649A8 /* DetailMyAquascape.swift */,
+			);
+			path = DetailMyAquascape;
+			sourceTree = "<group>";
+		};
+		D62D4F162A98015C003649A8 /* LightSetting */ = {
+			isa = PBXGroup;
+			children = (
+				D62D4F172A980188003649A8 /* LightSettingsView.swift */,
+				D62D4F242A983A7C003649A8 /* LightSettingsViewModel.swift */,
+			);
+			path = LightSetting;
+			sourceTree = "<group>";
+		};
+		D62D4F212A982A72003649A8 /* DetailIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				D62D4F222A982A83003649A8 /* DetailPHIndicatorView.swift */,
+				D62D4F282A9861FD003649A8 /* DetailKHIndicatorView.swift */,
+				D62D4F2A2A9863BE003649A8 /* DetailGHIndicatorView.swift */,
+			);
+			path = DetailIndicator;
+			sourceTree = "<group>";
+		};
+		D6BAE3432A974F540072B065 /* DetailLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				D6BAE3442A974F6F0072B065 /* DetailLibraryView.swift */,
+			);
+			path = DetailLibrary;
+			sourceTree = "<group>";
+		};
+		D6BAE3482A9775E60072B065 /* ProjectsForm */ = {
+			isa = PBXGroup;
+			children = (
+				D6BAE3492A9775F90072B065 /* ProjectForm1View.swift */,
+				D6BAE34B2A97771D0072B065 /* ProjectForm2View.swift */,
+				D6BAE34D2A97772B0072B065 /* ProjectForm3View.swift */,
+				D6BAE34F2A97A4560072B065 /* ProjectForm4View.swift */,
+				D62D4F112A97AE42003649A8 /* InputLitmusView.swift */,
+				D62D4F192A981462003649A8 /* FormViewModel.swift */,
+			);
+			path = ProjectsForm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,22 +450,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62D4F202A9823EF003649A8 /* MyAquascapesViewModel.swift in Sources */,
 				D603A0002A961E3C00ECD530 /* GetLampUseCase.swift in Sources */,
+				D62D4F182A980188003649A8 /* LightSettingsView.swift in Sources */,
+				D62D4F292A9861FD003649A8 /* DetailKHIndicatorView.swift in Sources */,
+				D6BAE34E2A97772B0072B065 /* ProjectForm3View.swift in Sources */,
 				D617C2DC2A96F3B100756069 /* ProjectsRepository.swift in Sources */,
 				D617C2E02A96F8ED00756069 /* GetProjectsUseCase.swift in Sources */,
 				D617C2E62A9738BD00756069 /* MyAquascapesView.swift in Sources */,
+				D617C2F52A973FB700756069 /* Colors+Constants.swift in Sources */,
 				D6039FF52A96177700ECD530 /* AquacareFirestore.swift in Sources */,
 				D6039FFE2A961DD600ECD530 /* LampRepository.swift in Sources */,
+				D6BAE3472A9750490072B065 /* UINavigationController+Ext.swift in Sources */,
+				D62D4F2B2A9863BE003649A8 /* DetailGHIndicatorView.swift in Sources */,
 				D6039FD52A96117800ECD530 /* MainView.swift in Sources */,
+				D6BAE34A2A9775FA0072B065 /* ProjectForm1View.swift in Sources */,
+				D62D4F152A97EECE003649A8 /* DetailMyAquascape.swift in Sources */,
+				D6BAE3502A97A4560072B065 /* ProjectForm4View.swift in Sources */,
 				D6039FFC2A961D9500ECD530 /* LampRepositoryProtocol.swift in Sources */,
 				D617C2F12A973A0900756069 /* ProfileView.swift in Sources */,
 				D603A0022A961E5800ECD530 /* LampModel.swift in Sources */,
 				D6039FF72A9617EA00ECD530 /* LampResponse.swift in Sources */,
+				D62D4F1A2A981462003649A8 /* FormViewModel.swift in Sources */,
+				D6BAE3452A974F6F0072B065 /* DetailLibraryView.swift in Sources */,
 				D617C2D52A96EDF900756069 /* UpdateLampUseCase.swift in Sources */,
+				D62D4F272A985EB9003649A8 /* Date+Formatter.swift in Sources */,
 				D617C2DA2A96F37100756069 /* ProjectsRepositoryProtocol.swift in Sources */,
 				D6039FD32A96117800ECD530 /* AquacareApp.swift in Sources */,
 				D617C2EF2A973A0000756069 /* LibraryView.swift in Sources */,
+				D6BAE34C2A97771D0072B065 /* ProjectForm2View.swift in Sources */,
+				D62D4F232A982A83003649A8 /* DetailPHIndicatorView.swift in Sources */,
+				D617C2F72A97400D00756069 /* LibraryViewModel.swift in Sources */,
+				D62D4F1C2A981AF9003649A8 /* PlantModel.swift in Sources */,
+				D62D4F1E2A982054003649A8 /* AddProjectUseCase.swift in Sources */,
+				D62D4F252A983A7C003649A8 /* LightSettingsViewModel.swift in Sources */,
 				D617C2D82A96EF6200756069 /* AquacareDatabase.xcdatamodeld in Sources */,
+				D62D4F122A97AE42003649A8 /* InputLitmusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

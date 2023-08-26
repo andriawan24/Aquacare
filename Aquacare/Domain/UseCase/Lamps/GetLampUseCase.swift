@@ -16,9 +16,11 @@ class GetLampUseCase {
         return repository.getLampStatus()
             .map { response in
                 LampModel(
-                    startTime: response?.startTime ?? "",
-                    endTime: response?.endTime ?? "",
-                    intensity: response?.intensity ?? 0
+                    startTime: response?.startTime ?? 0,
+                    endTime: response?.endTime ?? 0,
+                    intensity: response?.intensity ?? 0,
+                    state: response?.state ?? false,
+                    scheduled: response?.scheduled ?? false
                 )
             }
             .eraseToAnyPublisher()

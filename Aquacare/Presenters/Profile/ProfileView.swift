@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        Text("Profile Page")
+        Text("Menu ini sedang dalam pengembangan, mohon tunggu update selanjutnya...")
+            .multilineTextAlignment(.center)
     }
 }
 
